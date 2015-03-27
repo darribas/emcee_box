@@ -28,7 +28,7 @@ cd ..
 
 pip install triangle_plot
 
-if [[ ! -d /vagrant/galmassproxy ]]; then
+if [[ ! -d /vagrant/notebooks/galmassproxy ]]; then
     git clone https://github.com/farr/galmassproxy.git /vagrant/notebooks/galmassproxy
 fi
 
